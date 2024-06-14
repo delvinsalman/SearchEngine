@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Image & Video Gallery Engine</title>
+  <link rel="icon" href="dkkdkdd.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="lightbox">
+    <div class="wrapper">
+      <header>
+        <div class="photographer">
+          <i class="uil uil-camera"></i>
+          <span></span>
+        </div>
+        <div class="buttons">
+          <i class="uil uil-import"></i>
+          <i class="close-icon uil uil-times"></i>
+        </div>
+      </header>
+      <div class="preview-img">
+        <div class="img"><img src="" alt="preview-img"></div>
+      </div>
+    </div>
+  </div>
+
+  <section class="search">
+    <video autoplay muted loop poster="ds.jpeg" id="bgVideo">
+      <source src="vecteezy_ai-generated-the-fantasy-village-is-surrounded-by-flowers_36168603 (1) (1).mp4" type="video/mp4">
+    </video>
+    <div class="content">
+      <h1 class="info-icon">Image & Video Gallery Search Engine <i class="uil uil-info-circle"></i></h1>
+      <p>Discover and download high quality images & videos in a flash.</p>
+      
+      <div class="search-box">
+        <i class="uil uil-search"></i>
+        <input type="text" placeholder="Search images or videos">
+      </div>
+      <button id="toggleButton" class="toggle-btn">Switch to Video Gallery</button>
+    </div>
+  </section>
+  
+  <section class="gallery">
+    <ul class="images"></ul>
+    <button class="load-more">Load More</button>
+  </section>
+</body>
+</html>
