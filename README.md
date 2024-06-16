@@ -16,8 +16,8 @@ https://delvinsalman.github.io/SearchEngine/
 ![Screenshot 2024-06-15 at 5 07 36 PM](https://github.com/delvinsalman/SearchEngine/assets/90351386/05a09a5e-9bea-48fa-bcbf-890e062ed557)
 
 <hr style="border:1px solid black">
+<img width="1506" alt="Screenshot 2024-06-15 at 10 25 21 PM" src="https://github.com/delvinsalman/SearchEngine/assets/90351386/eab702f3-0b0a-4a39-b149-41496bb6ad26">
 
-![Screenshot 2024-06-15 at 5 07 49 PM](https://github.com/delvinsalman/SearchEngine/assets/90351386/9992870a-6c7c-4ba0-b158-57c24d5fd86f)
 
 <hr style="border:1px solid black">
 
