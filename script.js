@@ -151,12 +151,12 @@ const toggleGallery = () => {
     imageWrapper.innerHTML = "";
     toggleButton.innerText = isVideoGallery ? "Switch to Image Gallery" : "Switch to Video Gallery";
     let apiUrl = isVideoGallery
-        ? `https://api.pexels.com/videos/popular?page=1&per_page=${perPage}`
-        : `https://api.pexels.com/v1/curated?page=1&per_page=${perPage}`;
+        ? `https://api.pexels.com/videos/popular?page=${Math.floor(Math.random() * 100) + 1}&per_page=${perPage}`
+        : `https://api.pexels.com/v1/curated?page=${Math.floor(Math.random() * 100) + 1}&per_page=${perPage}`;
     getItems(apiUrl);
 }
 
-getItems(`https://api.pexels.com/v1/curated?page=${currentPage}&per_page=${perPage}`);
+getItems(`https://api.pexels.com/v1/curated?page=${Math.floor(Math.random() * 100) + 1}&per_page=${perPage}`);
 loadMoreBtn.addEventListener("click", loadMoreItems);
 searchInput.addEventListener("keyup", loadSearchItems);
 closeImgBtn.addEventListener("click", hideLightbox);
