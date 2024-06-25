@@ -1,6 +1,9 @@
 # SearchEngine
 A image and video search engine powered by an API. Developed using Javascript. It uses a unique system to generate new images and videos at any time, making it useful for users. In which the images and videos displayed on this site are of high quality. Simply type a word into the search bar to find hundreds of images based on that search.  
 
+# User Engagement
+
+Another unique feature about this site is being able to save these images and videos you find. Simply click the download icon in which the site downloads it as a jpeg/mp4 file.  
 
 # Site Link:
 https://delvinsalman.github.io/SearchEngine/ 
