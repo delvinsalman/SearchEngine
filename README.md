@@ -11,6 +11,7 @@ https://delvinsalman.github.io/SearchEngine/
 
 # Display:
 
+A display of images and videos searched within the engine. In which some of the words used where, "red", "money", "farm". 
 
 ![Screenshot 2024-06-15 at 5 06 28 PM](https://github.com/delvinsalman/SearchEngine/assets/90351386/1e4a739d-c604-4b84-985e-4c024bb9b29c)
 
