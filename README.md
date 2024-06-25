@@ -1,5 +1,5 @@
 # SearchEngine
-A image and video search engine powered by an API. Developed using Javascript.
+A image and video search engine powered by an API. Developed using Javascript. It uses a unique system to generate new images and videos at any time, making it useful for users. In which the images and videos displayed on this site are of high quality. Simply type a word into the search bar to find hundreds of images based on that search.  
 
 
 # Site Link:
