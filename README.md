@@ -36,12 +36,12 @@ Here are some previews of the **SearchEngine** in action. These screenshots show
 
 ---
 
-**Image 3: Full Page Display**  
+**Image 3: Search Results Example**  
 <img width="1506" alt="Screenshot 2024-06-15 at 10 25 21 PM" src="https://github.com/delvinsalman/SearchEngine/assets/90351386/eab702f3-0b0a-4a39-b149-41496bb6ad26">  
 
 ---
 
-**Image 4: Download Functionality**  
+**Image 4: Video Example**  
 ![Screenshot 2024-06-15 at 5 08 05 PM](https://github.com/delvinsalman/SearchEngine/assets/90351386/299fe96b-f512-4208-b8c5-111d42cc2031)  
 
 ---
