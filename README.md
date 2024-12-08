@@ -46,8 +46,8 @@ Here are some previews of the **SearchEngine** in action. These screenshots show
 
 ---
 
-**Image 5: Smooth User Interface**  
-![Screenshot 2024-06-15 at 5 08 21 PM](https://github.com/delvinsalman/SearchEngine/assets/90351386/cf52f41e-8d62-4a75-b4c3-ed1ab609ef3b)  
+**Image 5: Preview & Download**  
+<img width="1508" alt="Screenshot 2024-12-08 at 9 39 00 AM" src="https://github.com/user-attachments/assets/f8cb304d-fbb3-40fd-ac03-e287398e079c">
 
 ---
 
