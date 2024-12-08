@@ -1,4 +1,4 @@
-# **SearchEngine**  
+# **SearchEngine** 🔍✨
 A powerful image and video search engine powered by an API and developed using **JavaScript**. The platform allows users to search, view, and download high-quality images and videos at any time. By leveraging a dynamic content generation system, users can explore an endless variety of media files. Simply enter a keyword into the search bar, and the engine will display hundreds of related images and videos.
 
 [**🌐 Live Demo: Visit the Site**](https://delvinsalman.github.io/SearchEngine/)  
