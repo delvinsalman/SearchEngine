@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Image & Video Gallery Engine</title>
+  <title>Captures.io</title>
   <link rel="icon" href="CameraIcon.png" type="image/x-icon">
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,43 +10,77 @@
   <script src="script.js" defer></script>
 </head>
 <body>
+  <header class="main-header">
+    <a href="#" class="logo" id="homeLink">Captures.io 📸</a>
+    <div class="search-container">
+      <i class="uil uil-search"></i>
+      <input type="text" placeholder="Search free photos and videos">
+    </div>
+    <div class="header-controls">
+      <button id="toggleButton" class="toggle-btn">
+        <i class="uil uil-exchange"></i>
+        <span>Switch to Videos</span>
+      </button>
+      <button id="themeToggle" class="theme-toggle">
+        <i class="uil uil-moon"></i>
+      </button>
+      <button id="collectionToggle" class="collection-toggle" title="View Collection">
+        <i class="uil uil-heart"></i>
+      </button>
+      <button id="infoToggle" class="info-toggle" title="Info">
+        <i class="uil uil-info-circle"></i>
+      </button>
+    </div>
+  </header>
+
+  <main class="gallery-container">
+    <div class="images"></div>
+    <button class="load-more">Load More</button>
+  </main>
+
   <div class="lightbox">
     <div class="wrapper">
       <header>
         <div class="photographer">
           <i class="uil uil-camera"></i>
-          <span></span>
+          <span class="photographer-name"></span>
         </div>
         <div class="buttons">
-          <i class="uil uil-import"></i>
-          <i class="close-icon uil uil-times"></i>
+          <button class="favorite-btn" title="Add to Collection">
+            <i class="uil uil-heart"></i>
+          </button>
+          <button class="download-btn" title="Download">
+            <i class="uil uil-import"></i>
+          </button>
+          <button class="close-icon" title="Close">
+            <i class="uil uil-times"></i>
+          </button>
         </div>
       </header>
-      <div class="preview-img">
-        <div class="img"><img src="" alt="preview-img"></div>
+      <div class="preview-container">
+        <div class="preview-media">
+          <img class="lightbox-image" src="" alt="Preview">
+          <video class="lightbox-video" controls>
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
     </div>
   </div>
 
-  <section class="search">
-    <video autoplay muted loop poster="ds.jpeg" id="bgVideo">
-      <source src="Background.mp4" type="video/mp4">
-    </video>
-    <div class="content">
-      <h1 class="info-icon">Image & Video Gallery Search Engine <i class="uil uil-info-circle"></i></h1>
-      <p>Discover and download high quality images & videos in a flash.</p>
-      
-      <div class="search-box">
-        <i class="uil uil-search"></i>
-        <input type="text" placeholder="Search images or videos">
-      </div>
-      <button id="toggleButton" class="toggle-btn">Switch to Video Gallery</button>
+  <div class="info-modal">
+    <div class="info-content">
+      <button class="close-info">&times;</button>
+      <h2>Captures.io</h2>
+      <p>Welcome to Captures.io! This platform allows you to browse and download high-quality photos and videos. Photos and videos are how we interact with each other, and this platform makes that connection possible. You can:</p>
+      <ul>
+        <li>Search for free photos and videos</li>
+        <li>Switch between photo and video galleries</li>
+        <li>Save your favorite items to your collection</li>
+        <li>Download media with a single click</li>
+      </ul>
+<p><em>- By: Delvin Salman</em></p>
     </div>
-  </section>
-  
-  <section class="gallery">
-    <ul class="images"></ul>
-    <button class="load-more">Load More</button>
-  </section>
+  </div>
 </body>
 </html>
