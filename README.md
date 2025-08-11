@@ -1,78 +1,41 @@
-# **SearchEngine** 🔍✨
-A powerful image and video search engine powered by an API and developed using **JavaScript**. The platform allows users to search, view, and download high-quality images and videos at any time. By leveraging a dynamic content generation system, users can explore an endless variety of media files. Simply enter a keyword into the search bar, and the engine will display hundreds of related images and videos.
+# 📸 Captures.io - Free Photo & Video Search Engine
 
-[**🌐 Live Demo: Visit the Site**](https://delvinsalman.github.io/SearchEngine/)  
+![Captures.io Screenshot](https://github.com/user-attachments/assets/b78bc5ab-2d12-40ac-930a-8461cb143a32)
 
----
+Captures.io is a modern web application that allows users to search, view, and download high-quality photos and videos from Pexels API. With a clean interface and powerful features, it's perfect for creatives, developers, and anyone in need of free stock media.
 
-## **🛠️ Features**  
+## ✨ Features
 
-### 🔍 **Dynamic Image & Video Search**  
-- Instantly generate a collection of images and videos by typing a search term.  
-- High-quality content is displayed based on your query, ensuring a rich visual experience.  
-- Examples of search terms: **"red," "money," "farm."**  
+- **Dual Media Search**: Switch between photo and video galleries with one click
+- **Dark/Light Mode**: Toggle between themes for comfortable browsing
+- **Collection System**: Save your favorite media items for later access
+- **Responsive Design**: Works perfectly on all device sizes
+- **High-Quality Previews**: View media in a beautiful lightbox display
+- **Easy Downloads**: One-click downloads for any media
+- **Random Discovery**: Get random media suggestions on page load
+- **Info Modal**: Quick access to app information and features
 
-### 📂 **Download Media Files**  
-- **One-click download**: Save images as **JPEG** files and videos as **MP4** files.  
-- Users can download their favorite media directly to their devices.  
+## 🖼️ Screenshots
 
-### ⚡ **User-Friendly Interface**  
-- Clean, minimal design for smooth navigation and interaction.  
-- Real-time search results displayed instantly, improving user experience.  
+| Preview #1 | Preview #2 |
+|------------|-----------|
+| ![Light Mode](https://github.com/user-attachments/assets/2b9e4a8a-1fae-4376-8f17-bcfa7c95b8ec) | ![Dark Mode](https://github.com/user-attachments/assets/70591968-6206-4117-9823-85bf971bcec4) |
 
----
+| Preview #3 | Preview #4 |
+|---------------|-----------------|
+| ![Video Gallery](https://github.com/user-attachments/assets/59ec08ec-fa5a-4e13-b721-5149d69a3b8e) | ![Collection View](https://github.com/user-attachments/assets/0a129a1c-c4f5-4f05-b58a-662e065b039b) |
 
-## **📸 Display**  
+## 🛠️ Technologies Used
 
-Here are some previews of the **SearchEngine** in action. These screenshots show how users can search for terms like **"red," "money," and "farm."**  
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **API**: Pexels (for photo and video content)
+- **Icons**: [Unicons](https://iconscout.com/unicons)
+- **Font**: Poppins (Google Fonts)
+- **Responsive Design**: CSS Grid and Flexbox
+- **Local Storage**: For saving user preferences and collections
 
-**Image 1: General Search Display**  
-![Screenshot 2024-06-15 at 5 06 28 PM](https://github.com/delvinsalman/SearchEngine/assets/90351386/1e4a739d-c604-4b84-985e-4c024bb9b29c)  
+## 🚀 Installation & Usage
 
----
-
-**Image 2: Search Results Example**  
-![Screenshot 2024-06-15 at 5 07 36 PM](https://github.com/delvinsalman/SearchEngine/assets/90351386/05a09a5e-9bea-48fa-bcbf-890e062ed557)  
-
----
-
-**Image 3: Search Results Example**  
-<img width="1506" alt="Screenshot 2024-06-15 at 10 25 21 PM" src="https://github.com/delvinsalman/SearchEngine/assets/90351386/eab702f3-0b0a-4a39-b149-41496bb6ad26">  
-
----
-
-**Image 4: Video Example**  
-![Screenshot 2024-06-15 at 5 08 05 PM](https://github.com/delvinsalman/SearchEngine/assets/90351386/299fe96b-f512-4208-b8c5-111d42cc2031)  
-
----
-
-**Image 5: Preview & Download**  
-<img width="1508" alt="Screenshot 2024-12-08 at 9 39 00 AM" src="https://github.com/user-attachments/assets/f8cb304d-fbb3-40fd-ac03-e287398e079c">
-
----
-
-## **🚀 How to Use**  
-
-1. **Search for Images or Videos**:  
-   - Type a word or phrase into the search bar (e.g., "mountains," "ocean," "animals").  
-   - Instantly browse a collection of images and videos matching your search.  
-
-2. **View Content**:  
-   - Scroll through the display of images and videos.  
-   - Click on any image or video to enlarge it.  
-
-3. **Download Files**:  
-   - Click the **download icon** below any image or video.  
-   - The file will automatically download as a **JPEG (image)** or **MP4 (video)**.  
-
----
-
-## **🔧 Technologies Used**  
-- **JavaScript**: Handles all interactivity, search functionality, and file downloads.  
-- **HTML & CSS**: Structure and style for a clean, user-friendly interface.  
-- **API Integration**: Pulls dynamic image and video content directly from a media API.  
-
----
-## **🌐 Live Demo**  
-Experience the **SearchEngine** in action here:  
-👉 [**Live Demo**](https://delvinsalman.github.io/SearchEngine/)  
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/captures-io.git
