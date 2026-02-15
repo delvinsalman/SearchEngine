@@ -2,10 +2,11 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Captures.io</title>
+  <title>Captures.io – Free Stock Photos & Videos</title>
   <link rel="icon" href="CameraIcon.png" type="image/x-icon">
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover and download free high-quality photos and videos. Search millions of royalty-free images and clips.">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   <script src="script.js" defer></script>
 </head>
@@ -14,14 +15,23 @@
     <a href="#" class="logo" id="homeLink">Captures.io 📸</a>
     <div class="search-container">
       <i class="uil uil-search"></i>
-      <input type="text" placeholder="Search free photos and videos">
+      <input type="text" placeholder="Search free photos and videos" 
+             aria-label="Search" autocomplete="off" id="searchInput">
+      <button class="search-clear" aria-label="Clear search" title="Clear">
+        <i class="uil uil-times"></i>
+      </button>
+      <div class="search-suggestions"></div>
     </div>
     <div class="header-controls">
+      <div class="grid-size-controls" title="Grid size">
+        <button class="grid-btn" data-cols="2"><i class="uil uil-th"></i></button>
+        <button class="grid-btn active" data-cols="3"><i class="uil uil-grids"></i></button>
+      </div>
       <button id="toggleButton" class="toggle-btn">
         <i class="uil uil-exchange"></i>
         <span>Switch to Videos</span>
       </button>
-      <button id="themeToggle" class="theme-toggle">
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
         <i class="uil uil-moon"></i>
       </button>
       <button id="collectionToggle" class="collection-toggle" title="View Collection">
@@ -34,25 +44,49 @@
   </header>
 
   <main class="gallery-container">
+    <div class="gallery-header">
+      <span class="gallery-context"></span>
+    </div>
     <div class="images"></div>
-    <button class="load-more">Load More</button>
+    <div class="load-more-wrapper">
+      <button class="load-more">Load More</button>
+    </div>
+    <button class="scroll-top" aria-label="Scroll to top">
+      <i class="uil uil-arrow-up"></i>
+    </button>
   </main>
 
-  <div class="lightbox">
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Media viewer">
+    <button class="lightbox-prev" aria-label="Previous" title="Previous (←)">
+      <i class="uil uil-angle-left-b"></i>
+    </button>
+    <button class="lightbox-next" aria-label="Next" title="Next (→)">
+      <i class="uil uil-angle-right-b"></i>
+    </button>
     <div class="wrapper">
       <header>
         <div class="photographer">
           <i class="uil uil-camera"></i>
           <span class="photographer-name"></span>
+          <span class="lightbox-counter"></span>
         </div>
         <div class="buttons">
+          <button class="share-btn" title="Share">
+            <i class="uil uil-share-alt"></i>
+          </button>
+          <button class="copy-link-btn" title="Copy link">
+            <i class="uil uil-link"></i>
+          </button>
+          <button class="zoom-btn" title="Zoom image (images only)">
+            <i class="uil uil-expand-alt"></i>
+          </button>
           <button class="favorite-btn" title="Add to Collection">
             <i class="uil uil-heart"></i>
           </button>
           <button class="download-btn" title="Download">
             <i class="uil uil-import"></i>
           </button>
-          <button class="close-icon" title="Close">
+          <button class="close-icon" title="Close (Esc)">
             <i class="uil uil-times"></i>
           </button>
         </div>
@@ -76,11 +110,17 @@
       <ul>
         <li>Search for free photos and videos</li>
         <li>Switch between photo and video galleries</li>
-        <li>Save your favorite items to your collection</li>
+        <li>Video hover preview – see clips play on hover</li>
+        <li>Lightbox with prev/next, zoom, share &amp; copy link (keyboard: ←→ Esc)</li>
+        <li>Save favorites to your collection</li>
         <li>Download media with a single click</li>
+        <li>Grid toggle: 2 or 3 columns (default 3)</li>
+        <li>Toast notifications &amp; smooth scroll-to-top</li>
       </ul>
 <p><em>- By: Delvin Salman</em></p>
     </div>
   </div>
+
+  <div id="toast-container" aria-live="polite"></div>
 </body>
 </html>
